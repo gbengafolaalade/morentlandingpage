@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-b {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  letter-spacing: 1px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+}
+.like-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 90px;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.profil-notification {
+  position: absolute;
+  top: 40px;
+  left: 1172px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.nav-bar-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 124px;
+  overflow: hidden;
+}
+.prices-may-change-depending-on,
+.rental-summary-b {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.prices-may-change-depending-on {
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 500;
+  color: #90a3bf;
+  width: 444px;
+  height: 48px;
+}
+.rental-summary-div1 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.look-icon {
+  position: absolute;
+  top: 132px;
+  left: 24px;
+  border-radius: 8px;
+  width: 132px;
+  height: 108px;
+  overflow: hidden;
+}
+.nissan-gt-r {
+  position: relative;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.ic-actions-star-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.review-star-div {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.reviewer-div {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.car-name-div,
+.review-div {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.review-div {
+  height: 24px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  color: #3d5278;
+}
+.car-name-div {
+  position: absolute;
+  top: 150px;
+  left: 172px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 32px;
+}
+.line-div {
+  position: absolute;
+  top: 271.5px;
+  left: 23.5px;
+  border-top: 1px solid rgba(195, 212, 233, 0.4);
+  box-sizing: border-box;
+  width: 445px;
+  height: 1px;
+}
+.div,
+.subtotal-div1 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.div {
+  color: #1a202c;
+  text-align: right;
+}
+.subtotal-div,
+.tax-div {
+  position: absolute;
+  top: 304px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 212px;
+  font-size: 16px;
+  color: #90a3bf;
+}
+.tax-div {
+  top: 348px;
+}
+.bg-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f6f7f9;
+  width: 444px;
+  height: 56px;
+}
+.apply-now-div1,
+.apply-promo-code {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 24px;
+}
+.apply-now-div1 {
+  left: 312px;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #1a202c;
+  text-align: right;
+  width: 100px;
+}
+.apply-now-div {
+  position: absolute;
+  top: 400px;
+  left: 24px;
+  width: 444px;
+  height: 56px;
+  font-size: 14px;
+  color: #90a3bf;
+}
+.overall-price-and-includes-ren {
+  position: relative;
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 500;
+  color: #90a3bf;
+  display: flex;
+  align-items: center;
+  width: 284px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.b,
+.total-rental-price {
+  display: flex;
+  flex-shrink: 0;
+}
+.total-rental-price {
+  width: 284px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.b {
+  position: relative;
+  font-size: 32px;
+  text-align: right;
+  align-items: center;
+  width: 128px;
+  height: 48px;
+}
+.total-price-div {
+  position: absolute;
+  top: 488px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.rental-summary-div {
+  position: absolute;
+  top: 32px;
+  left: 916px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 492px;
+  height: 560px;
+  overflow: hidden;
+}
+.billing-info,
+.please-enter-your-billing-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.please-enter-your-billing-info {
+  font-size: 14px;
+  font-weight: 500;
+  color: #90a3bf;
+  height: 20px;
+}
+.name-div1,
+.your-name-input {
+  position: relative;
+  flex-shrink: 0;
+}
+.name-div1 {
+  line-height: 120%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 48px;
+  height: 20px;
+}
+.your-name-input {
+  border: 0;
+  background-color: transparent;
+  width: 386px;
+  height: 56px;
+}
+.address-input,
+.name-div,
+.phone-number-input,
+.town-or-city {
+  position: absolute;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name-div {
+  top: 104px;
+  gap: 16px;
+  font-size: 16px;
+}
+.address-input,
+.phone-number-input,
+.town-or-city {
+  border: 0;
+  background-color: transparent;
+  top: 220px;
+}
+.phone-number-input,
+.town-or-city {
+  left: 442px;
+}
+.phone-number-input {
+  top: 104px;
+}
+.step-1-of-4 {
+  position: absolute;
+  top: 52px;
+  left: 756px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #90a3bf;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 72px;
+  height: 20px;
+}
+.billing-info-div {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 852px;
+  height: 336px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.payment-div {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-b1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.our-vision-is-to-provide-conve {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 200%;
+  font-weight: 500;
+  color: rgba(19, 19, 19, 0.6);
+  display: inline-block;
+  width: 292px;
+}
+.logo-div {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 32px;
+  color: #3563e9;
+}
+.how-it-works {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bussiness-relation-p {
+  margin: 0;
+}
+.how-it-works-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.about-div1,
+.how-it-works-featured-partners {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  line-height: 120%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 152px;
+  height: 144px;
+  mix-blend-mode: normal;
+}
+.about-div1 {
+  top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  height: 32px;
+}
+.about-div,
+.community-div,
+.line-div1,
+.socials-div {
+  position: absolute;
+  top: 80px;
+  left: 804px;
+  width: 152px;
+  height: 200px;
+}
+.community-div,
+.line-div1,
+.socials-div {
+  left: 1016px;
+}
+.line-div1,
+.socials-div {
+  left: 1228px;
+}
+.line-div1 {
+  top: 339.5px;
+  left: 59.5px;
+  border-top: 1px solid rgba(19, 19, 19, 0.16);
+  box-sizing: border-box;
+  width: 1321px;
+  height: 1px;
+}
+.morent-all-rights-reserved,
+.privacy-policy,
+.terms-condition {
+  position: absolute;
+  top: 388px;
+  left: 60px;
+  letter-spacing: -0.01em;
+  line-height: 200%;
+  font-weight: 600;
+  color: #131313;
+  display: flex;
+  align-items: center;
+  width: 292px;
+  mix-blend-mode: normal;
+}
+.privacy-policy,
+.terms-condition {
+  left: 1032px;
+  text-align: right;
+  width: 144px;
+}
+.terms-condition {
+  left: 1236px;
+}
+.content-div,
+.footer-div {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  overflow: hidden;
+}
+.footer-div {
+  top: 694px;
+  background-color: #fff;
+  height: 480px;
+  font-size: 16px;
+  color: rgba(19, 19, 19, 0.6);
+}
+.content-div {
+  top: 124px;
+  background-color: #f6f7f9;
+  height: 1174px;
+  font-size: 20px;
+  color: #1a202c;
+}
+.hf-payment-car-rent {
+  position: relative;
+  width: 100%;
+  height: 1298px;
+  text-align: left;
+  font-size: 32px;
+  color: #3563e9;
+  font-family: "Plus Jakarta Sans";
+}
